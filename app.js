@@ -13,10 +13,10 @@ initSqlJs().then(function(SQL){
   // data is an Uint8Array representing an SQLite database file
 
   // Execute some sql
-  sqlstr = "CREATE TABLE hello (a int, b char);";
-  sqlstr += "INSERT INTO hello VALUES (0, 'hello');"
-  sqlstr += "INSERT INTO hello VALUES (1, 'world');"
-  db.run(sqlstr); // Run the query without returning anything
+  // sqlstr = "CREATE TABLE hello (a int, b char);";
+  // sqlstr += "INSERT INTO hello VALUES (0, 'hello');"
+  // sqlstr += "INSERT INTO hello VALUES (1, 'world');"
+  // db.run(sqlstr); // Run the query without returning anything
 
   var res = db.exec("SELECT * FROM hello");
   /*

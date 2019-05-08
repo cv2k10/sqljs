@@ -4,6 +4,9 @@
   "main": "app.js",
   "author": "cv",
   "license": "MIT",
+  "scripts": {
+  	"start": "node app.js"
+  },
   "dependencies": {
     "sql.js": "^1.0.0"
   }
